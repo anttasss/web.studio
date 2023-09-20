@@ -1,0 +1,89 @@
+body {background-color: rgb(66, 66, 66);
+}
+
+ul { list-style: none;
+padding: 0;}  
+
+.headerdiv a {text-decoration: none;
+color: aliceblue;
+}
+
+.headerdiv a:hover {
+color: #001f67;
+}
+
+.headerdiv{ display: flex; 
+    justify-content: space-between;
+    align-items: center;  
+}
+
+.logo{margin-left: 180px;}
+
+.navigation li { display: inline;
+    margin-right: 30px;
+}
+
+.poster {text-align: center;
+background-color: #f4f4f4;
+height: 190px;
+width: 100%;
+padding-top: 80px;
+padding-bottom: 120px;
+color: #001f67;
+}
+
+.poster h1{
+    font-size: 50px;
+}
+
+.poster button {
+font-size: larger;
+padding: 10px 20px;
+background-color: #001f67;
+color: white;
+border-radius: 5px;
+}
+
+.poster button:hover{
+background-color: #201438;}
+
+.mtext table {color:white;
+    margin: 60px;
+    text-align: center;
+    padding: 90px;
+}
+
+.act{color: white;
+text-align: center;
+margin: 50px;
+}
+
+.act img {
+    margin: 15px;
+}
+
+.text h2 {font-size: 30px;
+    color: rgb(255, 255, 255);
+text-align: center;
+margin-top: 100px;}
+
+.s-team {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+margin: 10px;
+margin-bottom: 110px;
+padding: 15px;}
+
+.s-team img {margin: 15px;}
+
+.footer{
+background-color:white;
+color: #001f67;
+padding-top: 15px;
+}
+
+
+.footer a {text-decoration: none;
+    color: rgb(0, 49, 92);
+    }
